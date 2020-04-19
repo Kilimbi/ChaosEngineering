@@ -1,11 +1,12 @@
 # Script to quickly set amount of space left on disk and filling it immediately
+#
 # USAGE:
 #
 # CREATE A FILE LEAVING ONLY 100M ON FILESYSTEM
-# $ sudo bash /data/disk_util.sh c 100 M sda2 /data/bigfile.data
+# $ sudo ./disk_util.sh c 100 M sda2 /data/bigfile.data
 #
 # REMOVE THE PREVIOUSLY CREATED FILE
-# $ sudo bash /data/disk_util.sh d 100 M sda2 /data/bigfile.data
+# $ sudo ./disk_util.sh d 100 M sda2 /data/bigfile.data
 
 #!/bin/env/bash
 

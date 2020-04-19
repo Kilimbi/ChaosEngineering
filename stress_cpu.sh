@@ -6,10 +6,10 @@
 # USAGE:
 #
 # CREATE 100% LOAD FOR 3 CPU CORES FOR 10 MINUTES
-# $ /data/stress_cpu.sh start 3 10m
+# $ ./stress_cpu.sh start 3 10m
 # 
 # STOP ALL STRESS TESTING
-# $ /data/stress_cpu.sh stop
+# $ ./stress_cpu.sh stop
 
 #!/bin/env/bash
 

@@ -5,10 +5,10 @@
 # USAGE:
 #
 # ADD 100ms DELAY RULE
-# $ ./test_delay.sh add eth0 100ms
+# $ sudo ./test_delay.sh add eth0 100ms
 # 
 # DELETE 100ms DELAY RULE
-# $ ./test_delay.sh delete eth0 100ms 
+# $ sudo ./test_delay.sh delete eth0 100ms 
 
 #!/bin/env/bash
 
