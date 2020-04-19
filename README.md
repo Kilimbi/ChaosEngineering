@@ -1,6 +1,9 @@
 # ChaosEngineering
 Series of scripts to simulate conditions of disk space, cpu stress and network delay
+
 Scripts requiring elevated privileges have `sudo` on the given examples.
+
+Be sure to install the dependency packages specified on each script before running.
 
 ## Usage:
 
